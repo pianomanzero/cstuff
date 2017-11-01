@@ -1,0 +1,208 @@
+USER     PID  %CPU %MEM    VSZ   RSS TT  STAT STARTED        TIME COMMAND
+root      11 191.0  0.0      0    80  -  RL   20Oct17 29350:30.66 [idle]
+root    2327   2.0  2.9 652984 59748  -  S    20Oct17   167:14.84 /usr/libexec/isilon/isi_celog_monitor /usr/bin/isi_celog_monitor -p/var/run/isi_celog_monitor.pid start
+root   13421   1.0  0.3 141988  6272  -  Is   Tue01PM   246:53.29 isi_mcp: master (isi_mcp)
+root       0   0.0  0.3      0  6440  -  DLs  20Oct17   206:20.05 [kernel]
+root       1   0.0  0.0   1764    88  -  ILs  20Oct17     0:00.06 /sbin/init --
+root       2   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [crypto]
+root       3   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [crypto returns]
+root       4   0.0  0.0      0    80  -  DL   20Oct17    21:40.64 [cam]
+root       5   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [ctl_thrd]
+root       6   0.0  0.0      0    40  -  DL   20Oct17     4:01.92 [pagedaemon]
+root       7   0.0  0.0      0    40  -  DL   20Oct17     0:00.03 [pagezero]
+root       8   0.0  0.0      0    40  -  DL   20Oct17     0:04.83 [bufdaemon]
+root       9   0.0  0.0      0    40  -  DL   20Oct17     0:07.04 [vnlru]
+root      10   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [audit]
+root      12   0.0  0.0      0   600  -  WL   20Oct17    85:03.57 [intr]
+root      13   0.0  0.0      0   120  -  DL   20Oct17     5:38.55 [geom]
+root      14   0.0  0.0      0    40  -  DL   20Oct17    18:30.63 [rand_harvestq]
+root      15   0.0  0.0      0    40  -  DL   20Oct17     1:12.16 [syncer]
+root      16   0.0  0.0      0    40  -  DL   20Oct17     0:06.07 [softdepflush]
+root      17   0.0  0.0      0    40  -  DL   20Oct17     0:07.94 [g_mirror root1]
+root      95   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [g_mirror hw]
+root      96   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [g_mirror keystore]
+root      97   0.0  0.0      0    40  -  DL   20Oct17     0:00.42 [g_mirror var-crash]
+root      98   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [g_mirror mfg]
+root      99   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [g_mirror journal-ba]
+root     100   0.0  0.0      0    40  -  DL   20Oct17     0:01.86 [g_mirror var1]
+root     101   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [g_mirror var0]
+root     102   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [g_mirror root0]
+root     178   0.0  0.0      0    40  -  DL   20Oct17     0:00.06 [md0]
+root     201   0.0  0.0      0    40  -  DL   20Oct17     0:00.24 [md1]
+root     472   0.0  0.1   4648  1520  -  Is   20Oct17     0:00.00 adjkerntz -i
+root    1272   0.0  0.0   6164   484  -  Is   20Oct17     0:00.56 /sbin/devd
+root    1385   0.0  0.1  54564  2564  -  Is   20Oct17     0:01.38 /usr/sbin/rpcbind
+root    1464   0.0  0.2 129124  4156  -  Ss   20Oct17     4:26.72 /usr/sbin/isi_boot_d
+root    1486   0.0  0.2 140276  4484  -  Ss   20Oct17    11:26.16 /usr/sbin/syslogd -c
+root    1506   0.0  0.1   6764  2764  -  Ss   20Oct17     0:02.86 /usr/bin/isi_watchdog_d
+root    1510   0.0  0.3 261280  6408  -  S    20Oct17     1:58.63 /usr/libexec/isilon/isi_hangdump /usr/bin/isi_hangdump start
+root    1512   0.0  0.3 261280  6184  -  S    20Oct17     0:14.07 /usr/libexec/isilon/isi_hangdump /usr/bin/isi_hangdump start
+root    1515   0.0  0.3 250684  6588  -  S    20Oct17    29:20.98 isi_eth_mixer_d(isi_eth_mixer_d) (isi_eth_mixer_d)
+root    1517   0.0  0.2 121032  4648  -  Is   20Oct17     5:12.96 /usr/sbin/isi_flexnet_d
+root    1698   0.0  0.1  54320  2672  -  Is   20Oct17     0:06.27 /usr/sbin/cron
+root    1706   0.0  0.2 120144  3984  -  Is   20Oct17     0:00.00 /usr/bin/isi_dmilog -d /var/log/dmilog
+root    1707   0.0  0.1  74688  2992  -  Is   20Oct17     0:00.00 /usr/sbin/isi_ipmi_d
+root    1714   0.0  0.2 155516  4604  -  Ss   20Oct17     0:58.15 /usr/sbin/bsnmpd
+root    1715   0.0  0.8 263568 15476  -  S    20Oct17    17:38.59 isi_rpc_d
+root    1719   0.0  0.2  68520  3276  -  Is@  20Oct17     0:00.06 /usr/local/sbin/sshd
+root    1735   0.0  0.1  58804  2512  -  Is   20Oct17     0:00.00 /usr/local/sbin/xinetd -f /etc/xinetd.conf -pidfile /var/run/xinetd.pid -stayalive
+root    1753   0.0  0.7 478804 13448  -  I    20Oct17    16:01.40 /usr/libexec/isilon/isi_webui_d ./Launch.py ThreadedAppServer -i /var/run/webui_webware.pid -d /usr/local/www/webkit -o /var/log/webui_webware.log
+root    1759   0.0  2.2 295388 46308  -  Ss   20Oct17    30:09.06 /usr/sbin/isi_stats_d
+root    1763   0.0  0.1  22976  2032  -  I    20Oct17     0:00.00 /usr/local/libexec/vsftpd /usr/local/etc/vsftpd.conf
+root    1765   0.0  0.3 140956  5708  -  Ss   20Oct17     1:44.94 /usr/sbin/isi_upgrade_agent_d
+root    1778   0.0  0.2 176628  5104  -  Is   20Oct17     0:00.04 /usr/libexec/isilon/isi_km_d
+root    1791   0.0  0.2 128988  4760  -  Ss   20Oct17     1:44.70 /usr/libexec/isilon/isi_drive_d
+root    1895   0.0  0.4 374824  7860  -  S    20Oct17    14:55.50 /usr/libexec/isilon/isi_ph_rpcd /usr/bin/isi_ph_rpcd start
+root    1900   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1901   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: dfq_drv_error]
+root    1902   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: dfq_txn_p]
+root    1903   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: dfq_dwt_stackdu]
+root    1904   0.0  0.0      0    40  -  DL   20Oct17     0:02.01 [kt: dfq_lki]
+root    1905   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: l3_data_dfq]
+root    1906   0.0  0.0      0    40  -  DL   20Oct17     0:25.41 [kt: dfq_bam_event]
+root    1907   0.0  0.0      0    40  -  DL   20Oct17     0:53.18 [kt: gmp_info_update]
+root    1908   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ltxn_dfq]
+root    1909   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1910   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: bam_disk_pool_d]
+root    1911   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1912   0.0  0.0      0    40  -  DL   20Oct17     0:33.14 [kt: dfq_rbm_dev_pin]
+root    1913   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1914   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: dfq_drv_gone]
+root    1915   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1916   0.0  0.0      0    40  -  DL   20Oct17     0:00.07 [kt: dfq_bam_free]
+root    1917   0.0  0.0      0    40  -  DL   20Oct17     8:34.32 [kt: dfq_journal]
+root    1918   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1919   0.0  0.0      0    40  -  DL   20Oct17     0:00.21 [kt: dfq_bam_alloc]
+root    1920   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1921   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: logstore_rescan]
+root    1922   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1924   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: ]
+root    1925   0.0  0.0      0    40  -  DL   20Oct17    79:30.28 [kt: dwt0]
+root    1927   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: l3_bg_invalidat]
+root    1928   0.0  0.0      0    40  -  DL   20Oct17     0:06.13 [kt: j_syncer]
+root    1930   0.0  0.0      0    40  -  DL   20Oct17     0:00.01 [kt: gmp-ltxn]
+root    1931   0.0  0.0      0    40  -  DL   20Oct17     0:03.05 [kt: bsw_offload]
+root    1932   0.0  0.0      0    40  -  DL   20Oct17     1:41.66 [kt: j_flusher]
+root    1933   0.0  0.0      0    40  -  DL   20Oct17     0:00.00 [kt: j_undefer]
+root    1934   0.0  0.2 116940  4032  -  Is   20Oct17     0:00.00 ifsd: worker (ifsd)
+root    1935   0.0  0.0      0    40  -  DL   20Oct17     0:21.07 [kt: ]
+root    1936   0.0  0.0      0    40  -  DL   20Oct17     0:19.20 [kt: ]
+root    1937   0.0  0.0      0    40  -  DL   20Oct17     0:18.93 [kt: ]
+root    1938   0.0  0.0      0    40  -  DL   20Oct17     0:19.02 [kt: ]
+root    1939   0.0  0.0      0    40  -  DL   20Oct17     0:20.96 [kt: ]
+root    1940   0.0  0.0      0    40  -  DL   20Oct17     0:21.04 [kt: ]
+root    1941   0.0  0.0      0    40  -  DL   20Oct17     0:00.07 [kt: lkf client reap]
+root    1942   0.0  0.0      0    40  -  DL   20Oct17     0:00.07 [kt: lkf client reap]
+root    1943   0.0  0.0      0    40  -  DL   20Oct17     0:00.07 [kt: lkf client reap]
+root    1944   0.0  0.0      0    40  -  DL   20Oct17     0:15.99 [kt: drv_sb_flush]
+root    1959   0.0  0.0      0    40  -  DL   20Oct17     0:00.07 [kt: lkf client reap]
+root    1960   0.0  0.0      0    40  -  DL   20Oct17     0:00.08 [kt: lkf client reap]
+root    1961   0.0  0.0      0    40  -  DL   20Oct17     0:00.03 [kt: owner_timeout]
+root    1963   0.0  0.0      0    40  -  DL   20Oct17     0:03.70 [kt: av-scanner]
+root    1964   0.0  0.0      0    40  -  DL   20Oct17     0:00.66 [kt: coal_susp]
+root    1965   0.0  0.0      0    40  -  DL   20Oct17     0:03.83 [kt: coalflush-eccb]
+root    1966   0.0  0.0      0    40  -  DL   20Oct17     0:06.65 [kt: coalflush]
+root    1967   0.0  0.0      0    40  -  DL   20Oct17     0:06.57 [kt: coalflush]
+root    1968   0.0  0.0      0    40  -  DL   20Oct17     0:06.53 [kt: coalflush]
+root    1969   0.0  0.0      0    40  -  DL   20Oct17     0:06.62 [kt: coalflush]
+root    2028   0.0  1.3 355652 27368  -  S    20Oct17     2:38.89 /usr/libexec/isilon/isi_celog_reporting /usr/bin/isi_celog_reporting
+root    2051   0.0  0.2 129756  4088  -  Is   20Oct17     0:00.00 /usr/sbin/isi_quota_report_d
+root    2052   0.0  0.3 146532  7108  -  Ss   20Oct17     1:56.31 /usr/sbin/isi_audit_d -d
+root    2075   0.0  0.2 129796  4088  -  Is   20Oct17     0:00.00 /usr/sbin/isi_quota_notify_d
+root    2086   0.0  0.2 155644  5140  -  Is   20Oct17     0:00.03 /usr/sbin/isi_stats_hist_d
+root    2088   0.0  0.5 410600  9516  -  I    20Oct17     0:00.69 /usr/libexec/isilon/isi_smartpools_d /usr/bin/isi_smartpools_d
+root    2092   0.0  0.2 129756  4088  -  Is   20Oct17     0:00.00 /usr/sbin/isi_quota_sweeper_d
+root    2109   0.0  0.4 405988  7232  -  I    20Oct17     0:02.09 /usr/libexec/isilon/isi_audit_syslog /usr/bin/isi_audit_syslog
+root    2113   0.0  1.2 524176 24036  -  Is   20Oct17     2:44.55 /usr/sbin/isi_papi_d
+root    2129   0.0  0.7 330916 14548  -  I    20Oct17     0:05.82 /usr/libexec/isilon/isi_group_change_d /usr/bin/isi_group_change_d start
+root    2144   0.0  0.3 145232  5488  -  Is   20Oct17     3:25.64 /usr/sbin/isi_dnsiq_d
+root    2164   0.0  0.4 304168  7644  -  Is   20Oct17     0:19.03 /usr/sbin/isi_object_d
+root    2170   0.0  0.2 136008  4140  -  Is   20Oct17     0:00.00 /usr/sbin/isi_snapshot_d
+root    2171   0.0  0.3 159592  6840  -  Ss   20Oct17    16:04.56 /usr/bin/isi_join_d -c
+root    2184   0.0  0.4 410872  8508  -  S    20Oct17     1:41.10 /usr/libexec/isilon/isi_drive_repurpose_d /usr/bin/isi_drive_repurpose_d
+root    2192   0.0  0.3 300804  6464  -  S    20Oct17     0:05.00 /usr/libexec/isilon/isi_audit_cee /usr/bin/isi_audit_cee -p /var/run/isi_audit_cee.pid start
+root    2194   0.0  0.3 157016  5496  -  Ss   20Oct17     0:23.10 /usr/bin/isi_migr_bandwidth
+root    2199   0.0  0.5 345620 10784  -  S    20Oct17     3:02.37 /usr/libexec/isilon/isi_celog_alerting /usr/bin/isi_celog_alerting
+root    2209   0.0  0.6 170392 12420  -  Ss   20Oct17     9:54.03 /usr/sbin/isi_tardis_d
+root    2215   0.0  0.2 148824  5056  -  Is   20Oct17     0:34.99 /usr/sbin/isi_cbind_d -D /var/crash/isi_cbind_d.dump
+root    2222   0.0  0.3 243012  5656  -  Ss   20Oct17     0:05.06 /usr/bin/isi_migr_pworker
+root    2223   0.0  0.3 285624  6404  -  Ss   20Oct17     0:12.32 /usr/bin/isi_job_d start
+root    2231   0.0  0.3 247408  5652  -  Ss   20Oct17     0:04.63 /usr/bin/isi_migr_sworker
+root    2244   0.0  0.3 157680  6260  -  Is   20Oct17     2:19.75 /usr/bin/isi_migr_sched
+root    2257   0.0  0.5 411972 10876  -  S    20Oct17     1:50.39 /usr/libexec/isilon/isi_celog_capture /usr/bin/isi_celog_capture
+root    2268   0.0  0.6 416968 11432  -  Is   20Oct17     3:40.89 /usr/bin/isi_celog_capture KernelMonitor (isi_celog_capture)
+root    2283   0.0  0.3 316432  6988  -  I    20Oct17     0:00.05 /usr/libexec/isilon/isi_drivemon /usr/bin/isi_drivemon -d
+root    2347   0.0  1.1 311932 23136  -  S    20Oct17    11:15.10 /usr/libexec/isilon/isi_celog_analysis /usr/bin/isi_celog_analysis
+root    2387   0.0  0.4 358796  7628  -  Is   20Oct17     0:32.42 /usr/bin/isi_celog_reporting PruneProcessor
+root    2388   0.0  0.5 360372  9792  -  I    20Oct17     0:01.16 /usr/bin/isi_celog_reporting PruneProcessor
+root    2389   0.0  0.4 359184  7480  -  I    20Oct17     0:00.00 /usr/bin/isi_celog_reporting PruneProcessor
+root    2411   0.0  1.0 261916 20008  -  Is    3:07PM     0:29.29 /usr/sbin/isi_cpool_d
+root    2431   0.0  0.6 282128 12352  -  Is    3:07PM     0:01.07 /usr/sbin/isi_cpool_io_d
+root    2474   0.0  0.7 321828 14768  -  I    20Oct17     1:00.73 /usr/libexec/isilon/boxend /usr/local/bin/boxend.py
+root    2481   0.0  0.0      0    40  -  DL   20Oct17     0:00.49 [md2]
+root    2515   0.0  0.0      0    40  -  DL   20Oct17     0:00.02 [md3]
+root    2722   0.0  0.6 238668 11604  -  I     3:10PM     0:00.36 /usr/likewise/sbin/lwsmd --syslog --start-as-daemon
+root    2723   0.0  0.2 262220  5144  -  Ss   20Oct17     0:24.34 /usr/local/apache2/bin/httpd -f /usr/local/apache2/conf/webui_httpd.conf -k start
+root    2724   0.0  0.7 274040 14176  -  I     3:10PM     0:02.07 lw-container lwreg (lwreg)
+root    2732   0.0  0.1   8912  1728  -  Ss   20Oct17     0:04.23 /usr/sbin/rpc.lockd
+root    2735   0.0  0.1 170644  2892  -  Ss   20Oct17     0:24.00 /usr/local/apache2/bin/httpd -k start
+daemon  2736   0.0  0.1 170332  2808  -  I    20Oct17     0:00.00 /usr/local/apache2/bin/httpd -k start
+root    2737   0.0  0.6 253828 13308  -  I     3:10PM     0:10.34 lw-container netlogon (netlogon)
+root    2738   0.0  1.1 331508 23188  -  I     3:10PM     3:04.76 lw-container lwio (lwio)
+daemon  2746   0.0  0.2 174360  3888  -  I    20Oct17     0:00.00 /usr/local/apache2/bin/httpd -k start
+daemon  2747   0.0  0.2 175128  5028  -  I    20Oct17     0:00.76 /usr/local/apache2/bin/httpd -k start
+root    2748   0.0  0.8 456288 15500  -  Is   20Oct17     0:29.91 /usr/bin/isi_celog_capture Exporter (isi_celog_capture)
+root    2801   0.0  0.3  65524  5368  -  Ss    3:10PM     0:08.68 /usr/sbin/ntpd -g -p /var/run/ntpd.pid
+root    2818   0.0  0.6 278088 12572  -  S     3:10PM     0:00.49 lw-container lwswift (lwswift)
+root    2822   0.0  1.1 339780 22548  -  S     3:10PM     2:07.21 lw-container nfs (nfs)
+root    2841   0.0  0.7 317904 14756  -  I     3:10PM     0:00.33 lw-container hdfs (hdfs)
+root    2869   0.0  0.7 242584 14060  -  I     3:10PM     0:00.66 lw-container dcerpc (dcerpc)
+root    2906   0.0  0.4 316676  8152  -  Is   20Oct17     0:32.89 /usr/bin/isi_celog_analysis QueryProcessor (isi_celog_analysis)
+root    2907   0.0  0.4 316676  7604  -  Is   20Oct17     0:31.74 /usr/bin/isi_celog_analysis StatusProcessor (isi_celog_analysis)
+root    2913   0.0  0.4 317064  7456  -  I    20Oct17     0:00.00 /usr/bin/isi_celog_analysis QueryProcessor (isi_celog_analysis)
+root    2914   0.0  0.4 317064  7456  -  I    20Oct17     0:00.00 /usr/bin/isi_celog_analysis StatusProcessor (isi_celog_analysis)
+root    2915   0.0  0.4 317064  7460  -  I    20Oct17     0:00.00 /usr/bin/isi_celog_analysis StatusProcessor (isi_celog_analysis)
+root    7155   0.0  1.4 354972 27996  -  S     4:26PM     4:16.66 lw-container lsass (lsass)
+root    7161   0.0  0.5 221852  9540  -  Is    4:26PM     0:00.03 /usr/libexec/isilon/nfs proxy nfs /var/run/nfs.pid
+root    7168   0.0  0.5 221852  9584  -  Is    4:26PM     0:00.03 /usr/libexec/isilon/hdfs proxy hdfs /var/run/hdfs.pid
+root    7214   0.0  0.6 260228 13036  -  I     4:26PM     0:00.13 lw-container srvsvc (srvsvc)
+root    7221   0.0  0.7 258856 15072  -  I     4:26PM     0:00.55 lw-container lwwit (lwwit)
+root    8893   0.0  0.4 347484  7640  -  Is   20Oct17     0:33.23 /usr/bin/isi_celog_alerting AlertProcessor (isi_celog_alerting)
+root    8894   0.0  0.4 348768  8364  -  I    20Oct17     0:00.17 /usr/bin/isi_celog_alerting AlertProcessor (isi_celog_alerting)
+root    8895   0.0  0.4 347872  7488  -  I    20Oct17     0:00.00 /usr/bin/isi_celog_alerting AlertProcessor (isi_celog_alerting)
+root   13417   0.0  0.2 137504  4584  -  Is   Tue01PM     0:00.04 isi_mcp: failsafe (isi_mcp)
+root   13419   0.0  0.2 137504  4704  -  Is   Tue01PM     0:00.92 isi_mcp: forker (isi_mcp)
+root   13437   0.0  0.2 137824  4768  -  Is   Tue01PM     0:00.05 /usr/sbin/isi_protohealth_d
+root   25567   0.0  0.0      0    40  -  DL    9:59PM     0:41.71 [kt: ]
+root   25569   0.0  0.0      0    40  -  DL    9:59PM     0:00.36 [kt: ]
+root   25668   0.0  0.0      0    40  -  DL   10:00PM     0:23.28 [kt: ]
+root   25669   0.0  0.0      0    40  -  DL   10:00PM     1:06.56 [kt: ]
+root   25670   0.0  0.0      0    40  -  DL   10:00PM     0:48.83 [kt: ]
+root   25671   0.0  0.0      0    40  -  DL   10:00PM     0:28.07 [kt: ]
+root   25673   0.0  0.0      0    40  -  DL   10:00PM     0:47.07 [kt: ]
+root   25682   0.0  0.0      0    40  -  DL   10:00PM     0:00.00 [kt: ]
+root   32578   0.0  0.1   4908  1692  -  I    23Oct17     0:00.30 logger -t httpd -p local3.info
+daemon 32579   0.0  0.2 262220  5152  -  I@   23Oct17     0:00.23 /usr/local/apache2/bin/httpd -f /usr/local/apache2/conf/webui_httpd.conf -k start
+daemon 32583   0.0  0.8 306804 17456  -  I    23Oct17     0:21.78 /usr/local/apache2/bin/httpd -f /usr/local/apache2/conf/webui_httpd.conf -k start
+root   39450   0.0  0.4 235896  7344  -  Is   23Oct17     0:03.88 /usr/sbin/isi_netgroup_d -P isi_netgroup_d_nfs
+root   44789   0.0  0.0      0    40  -  DL   Sun10PM     1:51.54 [kt: dxt0]
+root   44791   0.0  0.0      0    40  -  DL   Sun10PM     2:07.21 [kt: ]
+root   44803   0.0  0.0      0    40  -  DL   Sun10PM     2:04.31 [kt: ]
+root   64592   0.0  0.4  71848  8444  -  Ss@   9:40AM     0:00.06 sshd: root@pts/1 (sshd)
+root   68051   0.0  0.6 317960 12344  -  I    10:43AM     0:00.05 /usr/bin/isi_celog_analysis QueryProcessor (isi_celog_analysis)
+root   68489   0.0  0.5 413640 11124  -  Is   10:51AM     0:00.01 /usr/bin/isi_celog_capture AttachmentGenerator (isi_celog_capture)
+root   82130   0.0  0.2  71592  3772  -  Is@  Mon09AM     0:00.03 sshd: root@pts/0 (sshd)
+root   84861   0.0  0.0      0    40  -  DL   Fri10PM     5:42.46 [kt: ]
+root   84864   0.0  0.0      0    40  -  DL   Fri10PM     3:14.48 [kt: ]
+root    2601   0.0  0.1   6792  1712 u0  Is+  20Oct17     0:00.00 /usr/libexec/getty std.9600 ttyu0
+root    2593   0.0  0.1   6792  1712 v0  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv0
+root    2594   0.0  0.1   6792  1712 v1  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv1
+root    2595   0.0  0.1   6792  1712 v2  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv2
+root    2596   0.0  0.1   6792  1712 v3  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv3
+root    2597   0.0  0.1   6792  1712 v4  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv4
+root    2598   0.0  0.1   6792  1712 v5  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv5
+root    2599   0.0  0.1   6792  1712 v6  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv6
+root    2600   0.0  0.1   6792  1712 v7  Is+  20Oct17     0:00.00 /usr/libexec/getty Pc ttyv7
+root   82136   0.0  0.1  69304  2896  0  Is+  Mon09AM     0:00.07 -zsh (zsh)
+root   64594   0.0  0.5  74660  9612  1  Ss    9:40AM     0:01.20 -zsh (zsh)
+root   68532   0.0  0.1  11300  2416  1  R+   10:51AM     0:00.00 ps auwwx

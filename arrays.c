@@ -58,7 +58,31 @@ int main (int argc, char **argv){
 	} //end for
 
 
+	// Multidimensional arrays
+	// arrays who's elements hold arrays themselves
+	//
+	// initializing multidimensional arrays
+	int a[5][2] = { {0,0}, {1,2}, {2,4}, {3,6}, {4,8}}; 
+	// here we have an array with five "columns" and two "rows"
+	//
+	
+	int j;
+	// multidimensional arrays are accessed the same way as 
+	// one dimensional arrays
+	printf("\nMultidimensional arrays:\n");
+	printf("a[1][1] is %i\n", a[1][1]);
+	printf("\nThe entire array contains the following:\n\n");
 
+	for ( i = 0; i<5; ++i){
+		
+		for ( j = 0; j < 2; ++j){
+		
+			printf("a[%i][%i] = %i\n", i, j, a[i][j]);	
+		
+		} // end inner for
+		
+
+	} //end outer for
 
 
 	return 0;
